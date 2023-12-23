@@ -14,3 +14,15 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.hero span{
+    color: #ff2963;
+}
