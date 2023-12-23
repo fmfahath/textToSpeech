@@ -26,3 +26,21 @@
 .hero span{
     color: #ff2963;
 }
+
+textarea{
+    width: 600px;
+    height: 250px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #403d84;
+    border: 0;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+textarea::placeholder{
+    color: #ddd;
+}
