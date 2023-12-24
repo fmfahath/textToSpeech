@@ -14,9 +14,14 @@ window.speechSynthesis.onvoiceschanged = () => {
     voices = window.speechSynthesis.getVoices();
     speech.voice = voices[0];  //set the first voice as default voice from the array list
 
-    console.dir(voices);
+    // console.dir(voices);
 
     voices.forEach((voice, i) => { //load voices into select element
         voiceSelect.options[i] = new Option(voice.name, i)
     });
 }
+
+//change event for different voice from select option
+voiceSelect.addEventListener('change', () => {
+    speech.voice = voices[voiceSelect.value];
+});
