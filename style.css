@@ -84,3 +84,7 @@ textarea::placeholder{
     width: 15px;
     margin-right: 10px;
 }
+
+select{
+    color: #fff;
+}
